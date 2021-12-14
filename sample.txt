@@ -15,3 +15,4 @@ spec:
       image: nickchase/rss-php-nginx:v1
       ports: 
         - containerport: 80
+	through

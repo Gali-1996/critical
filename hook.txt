@@ -17,3 +17,7 @@ spec:
         - containerport: 80
 power
 good
+chnadu
+radhika
+santhu
+

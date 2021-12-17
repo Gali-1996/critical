@@ -1,0 +1,13 @@
+---
+- hosts: local host
+  tasks:
+  - name: create new file
+    file:
+      path: "/home/ansible/{{item}}"
+      state: touch
+      mode: 0775
+     with_items:
+     - access.log
+     - systemd.log
+     - properties.txt
+     - conffile.conf

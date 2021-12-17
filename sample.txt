@@ -14,4 +14,7 @@ spec:
     - name: rss-reader
       image: nickchase/rss-php-nginx:v1
       ports: 
-        - containerport: 80
+        - containerpor
+	through
+	pickk up
+Radhika Gali
